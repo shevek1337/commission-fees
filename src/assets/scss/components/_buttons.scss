@@ -1,0 +1,29 @@
+.btn {
+    @include padding(md);
+    @include padding-left(xl);
+    @include padding-right(xl);
+    border-radius: 5px;
+    border: none;
+    font-size: $fs-base;
+    background-color: $white;
+    cursor: pointer;
+    &:hover {
+        background-color: $white-dark;
+    }
+    &.active {
+        background-color: $btn-primary-color;
+        color: $white;
+        &:hover {
+            background-color: $btn-primary-bg-color;
+        }
+    }
+}
+
+.bulk-switcher {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    border: 1px solid $gray-light;
+    @include padding(xs);
+    border-radius: 5px;
+}

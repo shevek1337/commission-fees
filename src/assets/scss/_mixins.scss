@@ -1,0 +1,39 @@
+@mixin margin-top($value) {
+  margin-top: map-get($spacing, $value);
+}
+
+@mixin margin-right($value) {
+  margin-right: map-get($spacing, $value);
+}
+
+@mixin margin-bottom($value) {
+  margin-bottom: map-get($spacing, $value);
+}
+
+@mixin margin-left($value) {
+  margin-left: map-get($spacing, $value);
+}
+
+@mixin margin($value) {
+  margin: map-get($spacing, $value);
+}
+
+@mixin padding($value) {
+  padding: map-get($spacing, $value);
+}
+
+@mixin padding-top($value) {
+  padding-top: map-get($spacing, $value);
+}
+
+@mixin padding-right($value) {
+  padding-right: map-get($spacing, $value);
+}
+
+@mixin padding-bottom($value) {
+  padding-bottom: map-get($spacing, $value);
+}
+
+@mixin padding-left($value) {
+  padding-left: map-get($spacing, $value);
+}
